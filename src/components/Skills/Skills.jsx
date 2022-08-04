@@ -1,7 +1,7 @@
 import React from "react";
 import MultiDevice from "../../assets/images/multi-device.svg";
 import images from "./imports";
-import "./Skills.scss";
+import "./Skills.scss"; 
 import SkillsCard from "./SkillsCard";
 
 const Skills = () => {
