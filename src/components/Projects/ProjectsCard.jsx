@@ -8,7 +8,16 @@ import Typography from "@mui/material/Typography";
 
 const ProjectsCard = ({ projects }) => {
   return (
-    <Card className="card" sx={{ width: 345 }}>
+    <Card
+      className="card"
+      sx={{ width: 345 }}
+      data-aos="slide-up"
+      data-aos-offset="200"
+      data-aos-delay="500"
+      data-aos-duration="1000"
+      data-aos-easing="ease"
+      data-aos-once="true"
+    >
       <CardActionArea>
         <CardMedia
           component="img"

@@ -32,7 +32,16 @@ const CertificateCard = ({ index, cert }) => {
 
   return (
     <>
-      <div className="card__certificate" onClick={() => showImage(index)}>
+      <div
+        className="card__certificate"
+        onClick={() => showImage(index)}
+        data-aos="fade-down"
+        data-aos-offset="100"
+        data-aos-delay="500"
+        data-aos-duration="1000"
+        data-aos-easing="ease"
+        data-aos-once="true"
+      >
         <img src={cert} alt="Certicate" />
       </div>
       {show && (

@@ -10,11 +10,10 @@ const Skills = () => {
       className="app__skills"
       id="skills"
       data-aos="fade-left"
-      data-aos-offset="300"
+      data-aos-offset="200"
       data-aos-delay="500"
       data-aos-duration="1000"
-      data-aos-easing="ease-in-out"
-      data-aos-once="true"
+      data-aos-easing="ease"
     >
       <div className="app__skills-title">
         <h2 className="app__skills-title_title">Skills</h2>

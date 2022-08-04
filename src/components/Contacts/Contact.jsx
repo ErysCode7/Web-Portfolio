@@ -7,7 +7,16 @@ import "./Contact.scss";
 
 const Contact = () => {
   return (
-    <section className="app__contact" id="contacts">
+    <section
+      className="app__contact"
+      id="contacts"
+      data-aos="fade"
+      data-aos-offset="100"
+      data-aos-delay="500"
+      data-aos-duration="1000"
+      data-aos-easing="ease"
+      data-aos-once="true"
+    >
       <div className="app__contact-container">
         <div className="app__contact-container_contacts">
           <p className="app__contact-container_contacts-touch">
@@ -25,7 +34,7 @@ const Contact = () => {
             </a>
             <a href="https://www.instagram.com/_erysmozo/" target="blank">
               <img src={Instagram} alt="" />
-              _erysmozo 
+              _erysmozo
             </a>
             <a
               href="https://www.linkedin.com/in/erys-mozo-280190230/"

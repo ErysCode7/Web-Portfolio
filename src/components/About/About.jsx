@@ -8,11 +8,12 @@ const About = () => {
       className="app__about"
       id="about"
       data-aos="fade-right"
-      data-aos-offset="100"
+      data-aos-offset="200"
       data-aos-delay="500"
       data-aos-duration="1000"
-      data-aos-easing="ease-in-out"
-      data-aos-once="true"
+      data-aos-easing="ease"
+      data-aos-once="false"
+      data-aos-anchor-placement="top-center"
     >
       <div className="app__about-container">
         <div className="app__about-container_text">

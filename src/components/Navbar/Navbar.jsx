@@ -1,6 +1,6 @@
 import CloseIcon from "@mui/icons-material/Close";
 import MenuIcon from "@mui/icons-material/Menu";
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Facebook from "../../assets/images/socials/facebook.png";
 import Instagram from "../../assets/images/socials/instagram.png";
 import LinkedIn from "../../assets/images/socials/linkedin.png";
@@ -31,6 +31,26 @@ const Menu = () => {
 const Navbar = () => {
   const [showMobileNav, setShowMobileNav] = useState(false);
 
+  const mobileNav = useRef("");
+
+  useEffect(() => {
+    /**
+     * Perform if clicked on outside of element
+     */
+    const handleClickOutside = (event) => {
+      if (mobileNav.current && !mobileNav.current.contains(event.target)) {
+        setShowMobileNav(false);
+      }
+    };
+    // Bind the event listener
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      // Unbind the event listener on clean up
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [mobileNav]);
+
   return (
     <nav className="app__navbar">
       <div className="app__navbar-container">
@@ -54,6 +74,7 @@ const Navbar = () => {
           )}
         </div>
         <ul
+          ref={mobileNav}
           className={
             showMobileNav
               ? "app__navbar-container_mobilelinks show"

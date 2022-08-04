@@ -7,6 +7,10 @@
 
   z-index: 1;
 
+  @media (max-width: 600px) {
+    height: 70px;
+  }
+
   &-container {
     display: flex;
     align-items: center;
