@@ -10,6 +10,24 @@
     &_title {
       font-size: 3.75rem;
       font-weight: 800;
+
+      @media (max-width: 500px) {
+        font-size: 3rem;
+      }
+    }
+
+    &_content {
+      line-height: 1.6;
+      color: #555;
+      width: 60%;
+
+      @media (max-width: 992px) {
+        width: 100%;
+      }
+
+      @media (max-width: 500px) {
+        font-size: 0.875rem;
+      }
     }
   }
 
@@ -45,13 +63,32 @@
           }
         }
 
+        @media (max-width: 400px) {
+          padding: 0.5rem;
+        }
+
         > img {
           height: 100px;
           width: 100px;
 
+          @media (max-width: 1150px) {
+            width: 70px;
+            height: 70px;
+          }
+
           @media (max-width: 500px) {
-            width: 60px;
-            height: 60px;
+            width: 50px;
+            height: 50px;
+          }
+
+          @media (max-width: 400px) {
+            width: 40px;
+            height: 40px;
+          }
+
+          @media (max-width: 350px) {
+            width: 33px;
+            height: 33px;
           }
         }
       }

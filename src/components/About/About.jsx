@@ -12,7 +12,7 @@ const About = () => {
       data-aos-delay="500"
       data-aos-duration="1000"
       data-aos-easing="ease-in-out"
-      // data-aos-once="true"
+      data-aos-once="true"
     >
       <div className="app__about-container">
         <div className="app__about-container_text">

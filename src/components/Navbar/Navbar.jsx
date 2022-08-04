@@ -62,13 +62,16 @@ const Navbar = () => {
         >
           <Menu />
           <div className="app__navbar-container_mobilelinks-socials">
-            <a href="https://web.facebook.com/erys.mozo/">
+            <a href="https://web.facebook.com/erys.mozo/" target="blank">
               <img src={Facebook} alt="Facebook" />
             </a>
-            <a href="https://www.instagram.com/_erysmozo/">
+            <a href="https://www.instagram.com/_erysmozo/" target="blank">
               <img src={Instagram} alt="Instagram" />
             </a>
-            <a href="https://www.linkedin.com/in/erys-mozo-280190230/">
+            <a
+              href="https://www.linkedin.com/in/erys-mozo-280190230/"
+              target="blank"
+            >
               <img src={LinkedIn} alt="LinkedIn" />
             </a>
           </div>

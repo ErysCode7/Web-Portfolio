@@ -19,15 +19,18 @@ const Contact = () => {
             specified social medias below.
           </p>
           <ul className="app__contact-container_contacts-links">
-            <a href="">
+            <a href="https://web.facebook.com/erys.mozo/" target="blank">
               <img src={Facebook} alt="" />
               Ben Awad
             </a>
-            <a href="">
+            <a href="https://www.instagram.com/_erysmozo/" target="blank">
               <img src={Instagram} alt="" />
-              _erysmozo
+              _erysmozo 
             </a>
-            <a href="">
+            <a
+              href="https://www.linkedin.com/in/erys-mozo-280190230/"
+              target="blank"
+            >
               <img src={LinkedIn} alt="" />
               Erys Mozo
             </a>
