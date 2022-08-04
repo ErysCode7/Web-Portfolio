@@ -1,0 +1,65 @@
+.app__skills {
+  padding: 4rem 0;
+  background-color: #fee2f8;
+  background-image: linear-gradient(315deg, #fee2f8 0%, #dcf8ef 74%);
+
+  &-title {
+    width: 80%;
+    margin: 0 auto;
+
+    &_title {
+      font-size: 3.75rem;
+      font-weight: 800;
+    }
+  }
+
+  &-container {
+    width: 80%;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+
+    @media (max-width: 992px) {
+      flex-direction: column;
+    }
+
+    &_skills {
+      flex: 1;
+      padding: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 1.25rem;
+
+      &-card {
+        background-color: #f5f6f7;
+        border-radius: 0.25rem;
+        padding: 1rem;
+        transition: all 500ms ease;
+
+        @media (min-width: 992px) {
+          &:hover {
+            transform: scale(110%);
+          }
+        }
+
+        > img {
+          height: 100px;
+          width: 100px;
+
+          @media (max-width: 500px) {
+            width: 60px;
+            height: 60px;
+          }
+        }
+      }
+    }
+
+    &_image {
+      width: 100%;
+      flex: 1;
+    }
+  }
+}

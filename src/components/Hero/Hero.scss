@@ -1,0 +1,119 @@
+.app__hero {
+  padding-top: 120px;
+  color: #0a0a23;
+
+  background-image: linear-gradient(315deg, #f3e6e8 0%, #d5d0e5 74%);
+
+  @media (max-width: 992px) {
+    padding-bottom: 120px;
+  }
+
+  &-container {
+    width: 80%;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.25rem;
+
+    height: 100%;
+
+    @media (max-width: 992px) {
+      flex-direction: column;
+    }
+
+    &_text {
+      flex: 1;
+      margin-left: 1.25rem;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      @media (max-width: 992px) {
+        order: 2;
+      }
+
+      > p {
+        margin: 0;
+        color: var(--color-secondary);
+      }
+
+      &-name {
+        font-weight: 900;
+        font-size: 4.5rem;
+        color: var(--color-main);
+
+        @media (max-width: 1200px) {
+          font-size: 4.2rem;
+        }
+
+        @media (max-width: 992px) {
+          margin-bottom: 0.5rem;
+        }
+
+        @media (max-width: 500px) {
+          font-size: 3.75rem;
+        }
+
+        @media (max-width: 420px) {
+          font-size: 3rem;
+        }
+
+        @media (max-width: 375px) {
+          font-size: 2.75rem;
+        }
+      }
+
+      &-title {
+        font-size: 2.25rem;
+        font-weight: 700;
+        margin-bottom: 0.875rem;
+
+        @media (max-width: 1200px) {
+          font-size: 1.75rem;
+        }
+
+        @media (max-width: 500px) {
+          font-size: 1.25rem;
+        }
+
+        @media (max-width: 420px) {
+          font-size: 1.15rem;
+        }
+
+        @media (max-width: 375px) {
+          font-size: 1rem;
+        }
+      }
+
+      &-subtitle {
+        font-weight: 300;
+        color: #555;
+
+        @media (max-width: 500px) {
+          font-size: 1rem;
+        }
+
+        @media (max-width: 420px) {
+          font-size: 0.875rem;
+        }
+      }
+    }
+
+    &_image {
+      flex: 1;
+      width: 100%;
+
+      @media (max-width: 992px) {
+        order: 1;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
