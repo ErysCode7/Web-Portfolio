@@ -26,7 +26,7 @@ const ProjectDetails = [
   {
     image: Blog,
     title: "Blog App",
-    text: "Blog application using react router with localstorage",
+    text: "Blog application in React JS using react router dom with localstorage",
     site: "https://blog-app-azure.vercel.app/",
     code: "https://github.com/ErysCode7/blog-app",
   },
