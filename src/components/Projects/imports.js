@@ -1,5 +1,5 @@
 import AdviceGenerator from "../../assets/images/projects/advice-generator.jpg";
-import Blog from "../../assets/images/projects/blog.png";
+import Blog from "../../assets/images/projects/blogs.png";
 import EasyBank from "../../assets/images/projects/easybank.jpg";
 import EdieHomepage from "../../assets/images/projects/edie-page.jpg";
 import FrontendDocumentation from "../../assets/images/projects/frontend-docu.jpg";
