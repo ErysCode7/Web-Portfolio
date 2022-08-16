@@ -1,7 +1,7 @@
 import React from "react";
 import MultiDevice from "../../assets/images/multi-device.svg";
 import images from "./imports";
-import "./Skills.scss"; 
+import "./Skills.scss";
 import SkillsCard from "./SkillsCard";
 
 const Skills = () => {
@@ -23,6 +23,16 @@ const Skills = () => {
           expertise is front-end development, HTML, CSS, JS, & React. As an
           aspirant frontend developer most of my skills are heavily focused on
           different frontend technologies.
+        </p>
+        <p className="app__skills-title_content">
+          Despite knowing these frontend technologies I also have experience in
+          server side languanges such as PHP and MYSQL and basic knowledge in
+          Python and Java OOP.
+        </p>
+
+        <p className="app__skills-title_content">
+          As of this moment i'm currently learning state management in React.
+          Soon enough I will dive to NextJS and TypeScript.
         </p>
       </div>
       <div className="app__skills-container">

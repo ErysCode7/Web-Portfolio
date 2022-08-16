@@ -1,21 +1,15 @@
-import AOS from "aos";
 import "aos/dist/aos.css";
-import React, { useEffect } from "react";
+import React from "react";
 import TypeAnimation from "react-type-animation";
 import HeroSvg from "../../assets/images/hero.svg";
 import "./Hero.scss";
 
 const Hero = () => {
-  useEffect(() => {
-    AOS.init();
-    AOS.refresh();
-  }, []);
-
   return (
     <main
       className="app__hero"
       id="home"
-      data-aos="fade-down"
+      data-aos="fade"
       data-aos-offset="200"
       data-aos-delay="500"
       data-aos-duration="1000"

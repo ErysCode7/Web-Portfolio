@@ -24,6 +24,12 @@ const About = () => {
             power of the web should be accessible to everyone. Motivated,
             Organized, and a Curious Person.
           </p>
+
+          <p>
+            I've been practicing my skills in different Programming languages,
+            and eventually, I started getting better in it, and now it's
+            something like a daily routine.
+          </p>
         </div>
         <div className="app__about-container_image">
           <img src={AboutSVG} alt="Programming" />
