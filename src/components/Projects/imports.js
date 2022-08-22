@@ -1,5 +1,6 @@
 import AdviceGenerator from "../../assets/images/projects/advice-generator.jpg";
 import Blog from "../../assets/images/projects/blogs.png";
+import Cocktails from "../../assets/images/projects/cocktails.jpg";
 import EasyBank from "../../assets/images/projects/easybank.jpg";
 import EdieHomepage from "../../assets/images/projects/edie-page.jpg";
 import FrontendDocumentation from "../../assets/images/projects/frontend-docu.jpg";
@@ -23,6 +24,13 @@ import ResponsiveWeb from "../../assets/images/certificate/responsive-webdesign.
 export { CSScertificate, FCC, Java, PHP, Python, ResponsiveWeb };
 
 const ProjectDetails = [
+  {
+    image: Cocktails,
+    title: "Cocktails app",
+    text: "Random cocktails application in React JS fetching data from external source. Built with material design, Axios, Context API",
+    site: "https://cocktails-omega.vercel.app/",
+    code: "https://github.com/ErysCode7/cocktails",
+  },
   {
     image: Blog,
     title: "Blog App",
