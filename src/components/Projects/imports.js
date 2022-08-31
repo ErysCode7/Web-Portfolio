@@ -7,6 +7,7 @@ import FrontendDocumentation from "../../assets/images/projects/frontend-docu.jp
 import GithubGeneratorApp from "../../assets/images/projects/github-generator-app.jpg";
 import GPT3 from "../../assets/images/projects/gpt3.jpg";
 import JokeApp from "../../assets/images/projects/joke-api.jpg";
+import MovieLand from "../../assets/images/projects/movieland.jpg";
 import Pokedex from "../../assets/images/projects/pokedex.jpg";
 import Royals from "../../assets/images/projects/royals.jpg";
 import SpaceWebsite from "../../assets/images/projects/space.jpg";
@@ -24,6 +25,13 @@ import ResponsiveWeb from "../../assets/images/certificate/responsive-webdesign.
 export { CSScertificate, FCC, Java, PHP, Python, ResponsiveWeb };
 
 const ProjectDetails = [
+  {
+    image: MovieLand,
+    title: "MovieLand",
+    text: "Movie API application in React JS fetching data from external source. Built with Tailwind CSS, Axios Context API React Router Dom",
+    site: "https://movieland-beta.vercel.app/",
+    code: "https://github.com/ErysCode7/movieland",
+  },
   {
     image: Cocktails,
     title: "Cocktails app",
