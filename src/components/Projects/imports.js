@@ -1,6 +1,7 @@
 import AdviceGenerator from "../../assets/images/projects/advice-generator.jpg";
 import Blog from "../../assets/images/projects/blogs.png";
 import Cocktails from "../../assets/images/projects/cocktails.jpg";
+import Countries from "../../assets/images/projects/countries.jpg";
 import EasyBank from "../../assets/images/projects/easybank.jpg";
 import EdieHomepage from "../../assets/images/projects/edie-page.jpg";
 import FrontendDocumentation from "../../assets/images/projects/frontend-docu.jpg";
@@ -25,6 +26,13 @@ import ResponsiveWeb from "../../assets/images/certificate/responsive-webdesign.
 export { CSScertificate, FCC, Java, PHP, Python, ResponsiveWeb };
 
 const ProjectDetails = [
+  {
+    image: Countries,
+    title: "Rest Countries API",
+    text: "REST Countries API with color theme switcher. Built with ReactJS and TailwindCSS",
+    site: "https://countries-api-black-psi.vercel.app/",
+    code: "https://github.com/ErysCode7/countries-api",
+  },
   {
     image: MovieLand,
     title: "MovieLand",
