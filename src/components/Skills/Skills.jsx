@@ -27,12 +27,13 @@ const Skills = () => {
         <p className="app__skills-title_content">
           Despite knowing these frontend technologies I also have experience in
           server side languanges such as PHP and MYSQL and basic knowledge in
-          Python and Java OOP.
+          Python and Java.
         </p>
 
         <p className="app__skills-title_content">
-          As of this moment i'm currently learning state management in React.
-          Soon enough I will dive to NextJS and TypeScript.
+          As of this moment i'm currently learning state management in React. I
+          also know the basics of NextJS and TypeScript. Soon enough I will dive
+          to the core topics of these technologies NextJS and TypeScript.
         </p>
       </div>
       <div className="app__skills-container">

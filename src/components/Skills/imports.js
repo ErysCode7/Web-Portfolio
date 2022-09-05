@@ -9,6 +9,7 @@ import NPM from "../../assets/images/skills/npm.svg";
 import PHP from "../../assets/images/skills/php.svg";
 import React from "../../assets/images/skills/react.svg";
 import SASS from "../../assets/images/skills/sass.svg";
+import TailwindCSS from "../../assets/images/skills/tailwindcss.svg";
 import VSCode from "../../assets/images/skills/vscode.svg";
 
 const images = [
@@ -16,6 +17,7 @@ const images = [
   CSS,
   JavaScript,
   SASS,
+  TailwindCSS,
   Bootstrap,
   React,
   Git,
