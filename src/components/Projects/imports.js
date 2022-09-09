@@ -14,6 +14,7 @@ import Royals from "../../assets/images/projects/royals.jpg";
 import SpaceWebsite from "../../assets/images/projects/space.jpg";
 import TodoList from "../../assets/images/projects/todolist.png";
 import Toyota from "../../assets/images/projects/toyota.jpg";
+import Ecomm from "../../assets/images/projects/ecomm.jpg";
 
 //certificates
 import CSScertificate from "../../assets/images/certificate/CSS.jpg";
@@ -26,6 +27,13 @@ import ResponsiveWeb from "../../assets/images/certificate/responsive-webdesign.
 export { CSScertificate, FCC, Java, PHP, Python, ResponsiveWeb };
 
 const ProjectDetails = [
+  {
+    image: Ecomm,
+    title: "E-commerce product",
+    text: "Frontend Mentor - E-commerce product built with ReactJS, TailwindCSS and Redux Toolkit",
+    site: "https://ecommerce-product-beta.vercel.app/",
+    code: "https://github.com/ErysCode7/ecommerce-product",
+  },
   {
     image: Countries,
     title: "Rest Countries API",
