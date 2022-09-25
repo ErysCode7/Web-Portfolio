@@ -23,10 +23,18 @@ import Java from "../../assets/images/certificate/Java.png";
 import PHP from "../../assets/images/certificate/PHP.jpg";
 import Python from "../../assets/images/certificate/Python.png";
 import ResponsiveWeb from "../../assets/images/certificate/responsive-webdesign.jpg";
+import CryptoInc from "../../assets/images/projects/crypto.jpg";
 
 export { CSScertificate, FCC, Java, PHP, Python, ResponsiveWeb };
 
 const ProjectDetails = [
+  {
+    image: CryptoInc,
+    title: "Crypto Incorporated",
+    text: "A Crypto Application fetching real time data's using an API track of all cryptocurrency markets, news and updates about crypto and many more. Built with ReactJS, Ant Design, Redux Toolkit Query for fetching data and Chart.js.",
+    site: "https://crypto-incorporated-web.vercel.app/",
+    code: "https://github.com/ErysCode7/crypto-incorporated",
+  },
   {
     image: MovieStar,
     title: "MovieStar",
