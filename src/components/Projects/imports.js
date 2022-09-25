@@ -31,7 +31,7 @@ const ProjectDetails = [
   {
     image: CryptoInc,
     title: "Crypto Incorporated",
-    text: "A Crypto Application using an API track of all cryptocurrency markets, news and updates about crypto and many more. Built with ReactJS, Ant Design, Redux Toolkit Query and Chart.js.",
+    text: "A Crypto Application track of all cryptocurrency markets, news and updates about crypto and many more. Built with ReactJS, Ant Design, Redux Toolkit Query and Chart.js.",
     site: "https://crypto-incorporated-web.vercel.app/",
     code: "https://github.com/ErysCode7/crypto-incorporated",
   },
