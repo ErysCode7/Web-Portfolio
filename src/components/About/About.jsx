@@ -8,7 +8,7 @@ const About = () => {
       className="app__about"
       id="about"
       data-aos="fade-right"
-      data-aos-offset="200"
+      data-aos-offset="230"
       data-aos-delay="450"
       data-aos-duration="1000"
       data-aos-easing="ease"
