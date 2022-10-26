@@ -56,6 +56,10 @@
       justify-content: center;
       gap: 1.25rem;
 
+      @media (max-width: 500px) {
+        gap: 1rem;
+      }
+
       &-card {
         background-color: #f5f6f7;
         border-radius: 0.25rem;
@@ -87,6 +91,7 @@
 
         @media (max-width: 400px) {
           padding: 0.5rem;
+          width: 60px;
         }
 
         > img {
@@ -107,11 +112,6 @@
             width: 40px;
             height: 40px;
           }
-
-          @media (max-width: 350px) {
-            width: 33px;
-            height: 33px;
-          }
         }
 
         &_text {
@@ -120,9 +120,14 @@
           padding-top: 10px;
           font-weight: 500;
           color: #555;
+          overflow: hidden;
 
           @media (max-width: 500px) {
             font-size: 14px;
+          }
+
+          @media (max-width: 400px) {
+            font-size: 10px;
           }
         }
       }
