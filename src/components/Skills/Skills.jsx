@@ -1,6 +1,6 @@
 import React from "react";
 import MultiDevice from "../../assets/images/multi-device.svg";
-import images from "./imports";
+import skills from "./imports";
 import "./Skills.scss";
 import SkillsCard from "./SkillsCard";
 
@@ -11,31 +11,33 @@ const Skills = () => {
       id="skills"
       data-aos="fade-left"
       data-aos-offset="200"
-      data-aos-delay="500"
+      data-aos-delay="400"
       data-aos-duration="1000"
       data-aos-easing="ease"
+      data-aos-once="true"
     >
       <div className="app__skills-title">
         <h2 className="app__skills-title_title">Skills</h2>
-        <p className="app__skills-title_content">
+        {/* <p className="app__skills-title_content">
           I translate UI/UX design into successful responsive websites that are
           fast, easy to use, and built with best practices. The main area of my
           expertise is front-end development, HTML, CSS, JS, & React. As an
           aspirant frontend developer most of my skills are heavily focused on
           different frontend technologies.
-        </p>
-        <p className="app__skills-title_content">
+        </p> */}
+
+        {/* <p className="app__skills-title_content">
           Despite knowing these frontend technologies I also have experience in
           server side languanges such as PHP and MYSQL and basic knowledge in
           Python and Java.
-        </p>
+        </p> */}
 
         <p className="app__skills-title_content">
-          As of this moment i'm currently learning state management in React. I
-          also know the basics of NextJS and TypeScript. Soon enough I will dive
-          to the core topics of these technologies NextJS and TypeScript.
+          As of this moment i'm currently learning Next.js and TypeScript. Soon
+          enough I will dive to React-Native.
         </p>
       </div>
+
       <div className="app__skills-container">
         <div
           className="app__skills-container_skills"
@@ -46,13 +48,13 @@ const Skills = () => {
           data-aos-easing="ease-in-out"
           data-aos-once="true"
         >
-          {images.map((image, index) => (
-            <SkillsCard key={index} image={image} />
+          {skills.map((skill, index) => (
+            <SkillsCard key={index} skill={skill} />
           ))}
         </div>
-        <div className="app__skills-container_image">
-          <img src={MultiDevice} alt="MultiDevice" />
-        </div>
+      </div>
+      <div className="app__skills-container_image multidevice">
+        <img src={MultiDevice} alt="MultiDevice" />
       </div>
     </section>
   );

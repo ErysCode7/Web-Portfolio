@@ -9,10 +9,10 @@ const About = () => {
       id="about"
       data-aos="fade-right"
       data-aos-offset="200"
-      data-aos-delay="500"
+      data-aos-delay="450"
       data-aos-duration="1000"
       data-aos-easing="ease"
-      data-aos-once="false"
+      data-aos-once="true"
       data-aos-anchor-placement="top-center"
     >
       <div className="app__about-container">

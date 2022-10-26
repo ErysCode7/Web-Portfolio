@@ -8,7 +8,6 @@ import EdieHomepage from "../../assets/images/projects/edie-page.jpg";
 import FrontendDocumentation from "../../assets/images/projects/frontend-docu.jpg";
 import GithubGeneratorApp from "../../assets/images/projects/github-generator-app.jpg";
 import GPT3 from "../../assets/images/projects/gpt3.jpg";
-import JokeApp from "../../assets/images/projects/joke-api.jpg";
 import MovieStar from "../../assets/images/projects/movie-star.png";
 import MovieLand from "../../assets/images/projects/movieland.jpg";
 import Royals from "../../assets/images/projects/royals.jpg";
@@ -127,18 +126,10 @@ const ProjectDetails = [
     code: "https://github.com/ErysCode7/gpt3",
   },
   {
-    image: JokeApp,
-    title: "Joke Generator App",
-    text: "Joke Generator App allows the user to see random jokes. Built with HTML, CSS, SASS, JavaScript and Jokes API.",
-    site: "https://eryscode7.github.io/joke-generator-app/",
-    code: "https://github.com/ErysCode7/joke-generator-app",
-  },
-
-  {
     image: SpaceWebsite,
     title: "Space tourism website",
     text: "Frontend Mentor Challenges Multi Page Website",
-    site: "eryscode7.github.io/space-tourism/",
+    site: "https://eryscode7.github.io/space-tourism/",
     code: "https://github.com/ErysCode7/space-tourism",
   },
   {

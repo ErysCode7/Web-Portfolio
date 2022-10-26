@@ -30,7 +30,7 @@ const Contact = () => {
           <ul className="app__contact-container_contacts-links">
             <a href="https://web.facebook.com/erys.mozo/" target="blank">
               <img src={Facebook} alt="" />
-              Ben Awad
+              Erys Mozo
             </a>
             <a href="https://www.instagram.com/_erysmozo/" target="blank">
               <img src={Instagram} alt="" />

@@ -46,11 +46,13 @@ const Hero = () => {
             sequence={[
               4500,
               "A Self-taught Front-End Developer. 💻",
+              500,
+              "Guy who loves to code.tsx👩‍💻",
               1000,
               "Aspiring Front end engineer.🔥",
             ]}
             wrapper="h3"
-            repeat={1}
+            repeat={Infinity}
             className="app__hero-container_text-subtitle"
           />
         </div>
