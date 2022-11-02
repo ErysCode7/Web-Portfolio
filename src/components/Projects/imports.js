@@ -23,10 +23,18 @@ import PHP from "../../assets/images/certificate/PHP.jpg";
 import Python from "../../assets/images/certificate/Python.png";
 import ResponsiveWeb from "../../assets/images/certificate/responsive-webdesign.jpg";
 import CryptoInc from "../../assets/images/projects/crypto.jpg";
+import Weatheria from "../../assets/images/projects/weatheria.jpg";
 
 export { CSScertificate, FCC, Java, PHP, Python, ResponsiveWeb };
 
 const ProjectDetails = [
+  {
+    image: Weatheria,
+    title: "Weatheria",
+    text: "Weatheria a weather application that keep track of the weather around the world. Built using Next.js, TypeScript, Redux Toolkit, TailwindCSS, Chakra UI and the openweather api.",
+    site: "https://weatheria-taupe.vercel.app/",
+    code: "https://github.com/ErysCode7/weatheria",
+  },
   {
     image: CryptoInc,
     title: "Crypto Incorporated",
