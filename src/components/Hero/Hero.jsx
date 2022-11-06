@@ -36,7 +36,7 @@ const Hero = () => {
 
           <TypeAnimation
             cursor={false}
-            sequence={[3000, "I love building websites."]}
+            sequence={[3000, "I love building web applications."]}
             wrapper="h2"
             repeat={1}
             className="app__hero-container_text-title"
@@ -49,7 +49,7 @@ const Hero = () => {
               500,
               "Guy who loves to code.tsx👩‍💻",
               1000,
-              "Aspiring Front end engineer.🔥",
+              "Aspiring Full stack engineer.🔥",
             ]}
             wrapper="h3"
             repeat={Infinity}

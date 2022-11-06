@@ -30,6 +30,17 @@ const About = () => {
             and eventually, I started getting better in it, and now it's
             something like a daily routine.
           </p>
+
+          <p>
+            I'm currently doing my internship as a Front-End Developer at{" "}
+            <a
+              href="https://nexplay.gg/"
+              target="_blank"
+              className="app__links"
+            >
+              Nexplay
+            </a>
+          </p>
         </div>
         <div className="app__about-container_image">
           <img src={AboutSVG} alt="Programming" />

@@ -33,8 +33,27 @@ const Skills = () => {
         </p> */}
 
         <p className="app__skills-title_content">
-          As of this moment i'm currently learning Next.js and TypeScript. Soon
-          enough I will dive to React-Native.
+          As of this moment I'm currently learning{" "}
+          <a href="https://nextjs.org/" target="_blank" className="app__links">
+            Next.js
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://www.typescriptlang.org/"
+            target="_blank"
+            className="app__links"
+          >
+            TypeScript
+          </a>
+          . Soon enough I will dive to{" "}
+          <a
+            href="https://reactnative.dev/"
+            target="_blank"
+            className="app__links"
+          >
+            React-Native
+          </a>
+          .
         </p>
       </div>
 
