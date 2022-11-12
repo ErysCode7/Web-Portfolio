@@ -19,7 +19,7 @@ const About = () => {
         <div className="app__about-container_text">
           <h2>About</h2>
           <p>
-            As an aspirant frontend developer from Taguig Philippines. I believe
+            As an front-end developer from Taguig Philippines. I believe
             in building websites to solve problems, help people and that the
             power of the web should be accessible to everyone. Motivated,
             Organized, and a Curious Person.
