@@ -19,16 +19,16 @@ const About = () => {
         <div className="app__about-container_text">
           <h2>About</h2>
           <p>
-            As an front-end developer from Taguig Philippines. I believe
-            in building websites to solve problems, help people and that the
-            power of the web should be accessible to everyone. Motivated,
-            Organized, and a Curious Person.
+            As an front-end developer from Taguig Philippines. I believe in
+            building website applications to solve problems, help people and
+            that the power of the web should be accessible to everyone.
+            Motivated, Organized, and a Curious Person.
           </p>
 
           <p>
-            I've been practicing my skills in different Programming languages,
-            and eventually, I started getting better in it, and now it's
-            something like a daily routine.
+            I spend my time learning on technology especially Frontend
+            Development I consistently learn the concepts and tools behind and
+            building projects around it.
           </p>
 
           <p>

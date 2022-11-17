@@ -4,13 +4,16 @@ import Github from "../../assets/images/skills/github.svg";
 import HTML from "../../assets/images/skills/html.svg";
 import JavaScript from "../../assets/images/skills/javascript.svg";
 import MYSQL from "../../assets/images/skills/mysql.svg";
+import Netlify from "../../assets/images/skills/netlify.svg";
 import NextJS from "../../assets/images/skills/nextjs.svg";
 import NPM from "../../assets/images/skills/npm.svg";
 import PHP from "../../assets/images/skills/php.svg";
 import React from "../../assets/images/skills/react.svg";
+import Redux from "../../assets/images/skills/redux.svg";
 import SASS from "../../assets/images/skills/sass.svg";
 import TailwindCSS from "../../assets/images/skills/tailwindcss.svg";
 import TypeScript from "../../assets/images/skills/typescript.svg";
+import Vercel from "../../assets/images/skills/vercel.svg";
 import VSCode from "../../assets/images/skills/vscode.svg";
 
 const skills = [
@@ -37,6 +40,10 @@ const skills = [
   {
     image: React,
     text: "React.js",
+  },
+  {
+    image: Redux,
+    text: "Redux",
   },
   {
     image: TypeScript,
@@ -69,6 +76,14 @@ const skills = [
   {
     image: VSCode,
     text: "VSCode",
+  },
+  {
+    image: Vercel,
+    text: "Vercel",
+  },
+  {
+    image: Netlify,
+    text: "Netlify",
   },
 ];
 

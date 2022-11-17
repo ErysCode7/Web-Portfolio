@@ -45,7 +45,7 @@ const Skills = () => {
           >
             TypeScript
           </a>
-          . Soon enough I will dive to{" "}
+          . Soon enough I will learn dive to{" "}
           <a
             href="https://reactnative.dev/"
             target="_blank"
@@ -54,6 +54,11 @@ const Skills = () => {
             React-Native
           </a>
           .
+        </p>
+
+        <p className="app__skills-title_content">
+          These are the Tech Stack Tools I use as a developer in designing,
+          creating and establishing development projects.
         </p>
       </div>
 
