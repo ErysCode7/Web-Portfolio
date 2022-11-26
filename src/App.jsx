@@ -2,12 +2,15 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import React, { useEffect } from "react";
 import "./App.scss";
-import About from "./components/About/About";
-import Contact from "./components/Contacts/Contact";
-import Hero from "./components/Hero/Hero";
-import Navbar from "./components/Navbar/Navbar";
-import Projects from "./components/Projects/Projects";
-import Skills from "./components/Skills/Skills";
+import {
+  About,
+  Contact,
+  Earphone,
+  Hero,
+  Navbar,
+  Projects,
+  Skills,
+} from "./components";
 
 const App = () => {
   //aos initialization
@@ -24,6 +27,7 @@ const App = () => {
       <Skills />
       <Projects />
       <Contact />
+      <Earphone />
     </>
   );
 };

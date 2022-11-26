@@ -1,0 +1,36 @@
+.app__earphone {
+  position: fixed;
+  right: 0.5rem;
+  bottom: 0.75rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &-img {
+    width: 34px;
+    height: 34px;
+  }
+
+  &-span {
+    opacity: 0;
+    transition: all 1000ms ease;
+    transform: translateY(20px);
+
+    &_show {
+      transition: all 1000ms ease;
+
+      &:hover {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+  }
+
+  &-audio {
+    display: none;
+    opacity: 0;
+  }
+}

@@ -1,0 +1,76 @@
+.app__contact {
+  padding: 1.25rem 0;
+  background-color: #d9e4f5;
+  background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
+
+  &-container {
+    width: 80%;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+
+    @media (max-width: 992px) {
+      flex-direction: column;
+    }
+
+    &_contacts {
+      flex: 1;
+
+      &-touch {
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--color-secondary) !important;
+      }
+
+      > h2 {
+        font-size: 3rem;
+        font-weight: 800;
+        margin-bottom: 2rem;
+      }
+
+      > p {
+        color: #555;
+      }
+
+      &-links {
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+
+        a {
+          display: flex;
+          align-items: center;
+          gap: 1.25rem;
+          text-decoration: underline;
+          font-size: 1.5rem;
+          color: var(--color-secondary);
+
+          @media (max-width: 768px) {
+            font-size: 1.25rem;
+          }
+
+          @media (max-width: 500px) {
+            font-size: 1rem;
+          }
+
+          img {
+            width: 64px;
+            height: 64px;
+          }
+        }
+      }
+    }
+
+    &_image {
+      flex: 1;
+      width: 100%;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
