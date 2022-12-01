@@ -10,6 +10,7 @@ import GithubGeneratorApp from "../../assets/images/projects/github-generator-ap
 import GPT3 from "../../assets/images/projects/gpt3.jpg";
 import MovieStar from "../../assets/images/projects/movie-star.png";
 import MovieLand from "../../assets/images/projects/movieland.jpg";
+import Realtor from "../../assets/images/projects/realtor.jpg";
 import Royals from "../../assets/images/projects/royals.jpg";
 import SpaceWebsite from "../../assets/images/projects/space.jpg";
 import TodoList from "../../assets/images/projects/todolist.png";
@@ -28,6 +29,13 @@ import Weatheria from "../../assets/images/projects/weatheria.jpg";
 export { CSScertificate, FCC, Java, PHP, Python, ResponsiveWeb };
 
 const ProjectDetails = [
+  {
+    image: Realtor,
+    title: "Realtor",
+    text: "Realtor is Real Estate Application using the Bayut API where you can find different renting properties in Dubai. Built with Next.js, TypeScript, Chakra UI and Bayut API.",
+    site: "https://realtor-ten-iota.vercel.app/",
+    code: "https://github.com/ErysCode7/Realtor",
+  },
   {
     image: Weatheria,
     title: "Weatheria",
