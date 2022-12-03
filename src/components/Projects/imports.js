@@ -8,6 +8,7 @@ import EdieHomepage from "../../assets/images/projects/edie-page.jpg";
 import FrontendDocumentation from "../../assets/images/projects/frontend-docu.jpg";
 import GithubGeneratorApp from "../../assets/images/projects/github-generator-app.jpg";
 import GPT3 from "../../assets/images/projects/gpt3.jpg";
+import Hulu from "../../assets/images/projects/hulu.jpg";
 import MovieStar from "../../assets/images/projects/movie-star.png";
 import MovieLand from "../../assets/images/projects/movieland.jpg";
 import Realtor from "../../assets/images/projects/realtor.jpg";
@@ -29,6 +30,13 @@ import Weatheria from "../../assets/images/projects/weatheria.jpg";
 export { CSScertificate, FCC, Java, PHP, Python, ResponsiveWeb };
 
 const ProjectDetails = [
+  {
+    image: Hulu,
+    title: "Hulu v2",
+    text: "Hulu v2 is a Hulu clone application where you can see list of trending movies different genres etc. Rebuilt using Next.js, TypeScript and Tailwind CSS and the TMDB API.",
+    site: "https://hulu-v2-lyart.vercel.app/",
+    code: "https://github.com/ErysCode7/hulu-v2",
+  },
   {
     image: Realtor,
     title: "Realtor",
