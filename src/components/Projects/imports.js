@@ -25,11 +25,27 @@ import PHP from "../../assets/images/certificate/PHP.jpg";
 import Python from "../../assets/images/certificate/Python.png";
 import ResponsiveWeb from "../../assets/images/certificate/responsive-webdesign.jpg";
 import CryptoInc from "../../assets/images/projects/crypto.jpg";
+import FBV2 from "../../assets/images/projects/fb-v2.jpg";
+import PGD from "../../assets/images/projects/pgd.jpg";
 import Weatheria from "../../assets/images/projects/weatheria.jpg";
 
 export { CSScertificate, FCC, Java, PHP, Python, ResponsiveWeb };
 
 const ProjectDetails = [
+  {
+    image: PGD,
+    title: "Pokémon Go-Dex",
+    text: "Pokemon Go-Dex a digital web application displays information about the various species of Pokémon. Built with modern design, Next.js, TypeScript, Tailwind CSS, Redux Toolkit Query.",
+    site: "https://pokemon-go-dex-pwa4.vercel.app/",
+    code: null,
+  },
+  {
+    image: FBV2,
+    title: "FB v2",
+    text: "FB v2 is a application where you can login, post some data and upload a photo using firebase as a BaaS. Built with Next.js, TypeScript, Tailwind CSS, Next Auth and Firebase.",
+    site: "http://fb-v2-lemon.vercel.app/",
+    code: "https://github.com/ErysCode7/fb-v2",
+  },
   {
     image: Hulu,
     title: "Hulu v2",

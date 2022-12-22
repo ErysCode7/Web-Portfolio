@@ -1,10 +1,9 @@
-import React from "react";
-
 import { Button, CardActionArea, CardActions } from "@mui/material";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
+import React from "react";
 
 const ProjectsCard = ({ projects }) => {
   return (
@@ -52,9 +51,9 @@ const ProjectsCard = ({ projects }) => {
             disableElevation
             disableRipple
             size="small"
-            color="primary"
+            color={`${projects.code === null ? "warning" : "primary"}`}
           >
-            View Code
+            {projects.code === null ? "Repository is private" : "View Code"}
           </Button>
         </a>
       </CardActions>

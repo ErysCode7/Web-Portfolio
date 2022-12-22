@@ -1,6 +1,8 @@
 import CSS from "../../assets/images/skills/css.svg";
+import Firebase from "../../assets/images/skills/firebase.svg";
 import Git from "../../assets/images/skills/git.svg";
 import Github from "../../assets/images/skills/github.svg";
+import Gitlab from "../../assets/images/skills/gitlab.svg";
 import HTML from "../../assets/images/skills/html.svg";
 import JavaScript from "../../assets/images/skills/javascript.svg";
 import MYSQL from "../../assets/images/skills/mysql.svg";
@@ -62,6 +64,10 @@ const skills = [
     text: "Github",
   },
   {
+    image: Gitlab,
+    text: "Gitlab",
+  },
+  {
     image: NPM,
     text: "NPM",
   },
@@ -72,6 +78,10 @@ const skills = [
   {
     image: MYSQL,
     text: "MYSQL",
+  },
+  {
+    image: Firebase,
+    text: "Firebase",
   },
   {
     image: VSCode,
