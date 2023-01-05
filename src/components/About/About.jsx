@@ -19,10 +19,36 @@ const About = () => {
         <div className="app__about-container_text">
           <h2>About</h2>
           <p>
-            As an front-end developer from Taguig Philippines. I believe in
-            building website applications to solve problems, help people and
-            that the power of the web should be accessible to everyone.
-            Motivated, Organized, and a Curious Person.
+            {/* I am a self-taught developer. I learn by doing things. As a
+            Front-End Developer, I translate UI/UX designs into successful,
+            responsive websites that are fast, easy to use, and built with best
+            practices. The main area of my expertise is front-end development.
+            Next.js, React.js, TypeScript, and Tailwind CSS are my main stack.
+            Most of my skills are heavily focused on different front-end
+            technologies */}
+            {/* Hello! My name is Erys and I am a front end developer with a passion
+            for creating visually stunning and intuitive websites. With a strong
+            foundation in HTML, CSS, and JavaScript, I am able to bring designs
+            to life and create user experiences that are both functional and
+            enjoyable. In my previous roles, I have worked on a variety of
+            projects ranging from small business websites to large e-commerce
+            platforms. I have a keen eye for detail and am always seeking ways
+            to improve the performance and functionality of a website. Outside
+            of work, I enjoy staying up-to-date on the latest web development
+            trends and techniques through online learning and attending industry
+            events. I am always looking for new challenges and opportunities to
+            expand my skillset. Thank you for considering me for your project. I
+            am excited to bring my skills and expertise to your team and create
+            something truly unique and impactful. */}
+            Hello! My name is Erys and I am a front end developer with a passion
+            for creating visually stunning and intuitive websites. With a strong
+            foundation in HTML, CSS, and JavaScript, I am able to bring designs
+            to life and create user experiences that are both functional and
+            enjoyable. I have a keen eye for detail and am always seeking ways
+            to improve the performance and functionality of a website. Outside
+            of work, I enjoy staying up-to-date on the latest web development
+            trends and techniques through online learning. I am always looking
+            for new challenges and opportunities to expand my skillset.
           </p>
 
           <p>
@@ -32,7 +58,7 @@ const About = () => {
           </p>
 
           <p>
-            I'm currently doing my internship as a Front-End Developer at{" "}
+            I'm currently work as a Junior Front End Developer at{" "}
             <a
               href="https://nexplay.gg/"
               target="_blank"

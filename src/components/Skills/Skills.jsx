@@ -33,7 +33,8 @@ const Skills = () => {
         </p> */}
 
         <p className="app__skills-title_content">
-          As of this moment I'm currently learning{" "}
+          As of this moment I'm currently learning best coding principle and
+          stack such as{" "}
           <a href="https://nextjs.org/" target="_blank" className="app__links">
             Next.js
           </a>{" "}
@@ -45,15 +46,10 @@ const Skills = () => {
           >
             TypeScript
           </a>
-          . Soon enough I will learn dive to{" "}
-          <a
-            href="https://reactnative.dev/"
-            target="_blank"
-            className="app__links"
-          >
-            React-Native
-          </a>
-          .
+          <p>
+            Soon enough I will learn Backend Development to become a Fullstack
+            Developer.
+          </p>
         </p>
 
         <p className="app__skills-title_content">
