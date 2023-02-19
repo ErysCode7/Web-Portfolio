@@ -1,3 +1,4 @@
+//projects
 import AdviceGenerator from "../../assets/images/projects/advice-generator.jpg";
 import Blog from "../../assets/images/projects/blogs.png";
 import Cocktails from "../../assets/images/projects/cocktails.jpg";
