@@ -26,7 +26,6 @@ import PHP from "../../assets/images/certificate/PHP.jpg";
 import Python from "../../assets/images/certificate/Python.png";
 import ResponsiveWeb from "../../assets/images/certificate/responsive-webdesign.jpg";
 import CryptoInc from "../../assets/images/projects/crypto.jpg";
-
 import FBV2 from "../../assets/images/projects/fb-v2.jpg";
 import PGD from "../../assets/images/projects/pgd.jpg";
 import Weatheria from "../../assets/images/projects/weatheria.jpg";
