@@ -58,7 +58,7 @@ const About = () => {
           </p>
 
           <p>
-            I'm currently work as a Junior Front End Developer at{" "}
+            I'm currently work as a Front End Developer at{" "}
             <a
               href="https://nexplay.gg/"
               target="_blank"

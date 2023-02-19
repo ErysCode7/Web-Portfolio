@@ -2,6 +2,7 @@ import AdviceGenerator from "../../assets/images/projects/advice-generator.jpg";
 import Blog from "../../assets/images/projects/blogs.png";
 import Cocktails from "../../assets/images/projects/cocktails.jpg";
 import Countries from "../../assets/images/projects/countries.jpg";
+import Dictionary from "../../assets/images/projects/dictionary.jpg";
 import EasyBank from "../../assets/images/projects/easybank.jpg";
 import Ecomm from "../../assets/images/projects/ecomm.jpg";
 import EdieHomepage from "../../assets/images/projects/edie-page.jpg";
@@ -25,6 +26,7 @@ import PHP from "../../assets/images/certificate/PHP.jpg";
 import Python from "../../assets/images/certificate/Python.png";
 import ResponsiveWeb from "../../assets/images/certificate/responsive-webdesign.jpg";
 import CryptoInc from "../../assets/images/projects/crypto.jpg";
+
 import FBV2 from "../../assets/images/projects/fb-v2.jpg";
 import PGD from "../../assets/images/projects/pgd.jpg";
 import Weatheria from "../../assets/images/projects/weatheria.jpg";
@@ -32,6 +34,13 @@ import Weatheria from "../../assets/images/projects/weatheria.jpg";
 export { CSScertificate, FCC, Java, PHP, Python, ResponsiveWeb };
 
 const ProjectDetails = [
+  {
+    image: Dictionary,
+    title: "Dictionary APP",
+    text: "Dictionary is web application that provides users with access to a dictionary. It can be used to look up the meanings of words, learn new vocabulary, and improve language skills.",
+    site: "https://dictionary-app-sandy.vercel.app/",
+    code: "https://github.com/ErysCode7/dictionary-app",
+  },
   {
     image: PGD,
     title: "Pokémon Go-Dex",
