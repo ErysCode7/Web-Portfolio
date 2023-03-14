@@ -3,7 +3,7 @@ import AdviceGenerator from "../../assets/images/projects/advice-generator.jpg";
 import Blog from "../../assets/images/projects/blogs.png";
 import Cocktails from "../../assets/images/projects/cocktails.jpg";
 import Countries from "../../assets/images/projects/countries.jpg";
-import Dictionary from "../../assets/images/projects/dictionary.jpg";
+import Dictionary from "../../assets/images/projects/dictionary.png";
 import EasyBank from "../../assets/images/projects/easybank.jpg";
 import Ecomm from "../../assets/images/projects/ecomm.jpg";
 import EdieHomepage from "../../assets/images/projects/edie-page.jpg";
