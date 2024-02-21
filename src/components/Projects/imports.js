@@ -1,22 +1,17 @@
 //projects
 import AdviceGenerator from "../../assets/images/projects/advice-generator.jpg";
-import Blog from "../../assets/images/projects/blogs.png";
 import Cocktails from "../../assets/images/projects/cocktails.jpg";
 import Countries from "../../assets/images/projects/countries.jpg";
 import Dictionary from "../../assets/images/projects/dictionary.png";
 import EasyBank from "../../assets/images/projects/easybank.jpg";
-import Ecomm from "../../assets/images/projects/ecomm.jpg";
 import EdieHomepage from "../../assets/images/projects/edie-page.jpg";
 import FrontendDocumentation from "../../assets/images/projects/frontend-docu.jpg";
 import GithubGeneratorApp from "../../assets/images/projects/github-generator-app.jpg";
 import GPT3 from "../../assets/images/projects/gpt3.jpg";
 import Hulu from "../../assets/images/projects/hulu.jpg";
 import MovieStar from "../../assets/images/projects/movie-star.png";
-import MovieLand from "../../assets/images/projects/movieland.jpg";
 import Realtor from "../../assets/images/projects/realtor.jpg";
 import Royals from "../../assets/images/projects/royals.jpg";
-import SpaceWebsite from "../../assets/images/projects/space.jpg";
-import TodoList from "../../assets/images/projects/todolist.png";
 import Toyota from "../../assets/images/projects/toyota.jpg";
 
 //certificates
@@ -34,13 +29,13 @@ import Weatheria from "../../assets/images/projects/weatheria.jpg";
 export { CSScertificate, FCC, Java, PHP, Python, ResponsiveWeb };
 
 const ProjectDetails = [
-  {
-    image: Dictionary,
-    title: "Dictionary APP",
-    text: "Dictionary is web application that provides users with access to a dictionary. It can be used to look up the meanings of words, learn new vocabulary and improve language skills.",
-    site: "https://dictionary-app-sandy.vercel.app/",
-    code: "https://github.com/ErysCode7/dictionary-app",
-  },
+  // {
+  //   image: Dictionary,
+  //   title: "Dictionary APP",
+  //   text: "Dictionary is web application that provides users with access to a dictionary. It can be used to look up the meanings of words, learn new vocabulary and improve language skills.",
+  //   site: "https://dictionary-app-sandy.vercel.app/",
+  //   code: "https://github.com/ErysCode7/dictionary-app",
+  // },
   {
     image: PGD,
     title: "Pokémon Go-Dex",
@@ -90,13 +85,7 @@ const ProjectDetails = [
     site: "https://movie-star-tawny.vercel.app/",
     code: "https://github.com/ErysCode7/movie-star",
   },
-  {
-    image: Ecomm,
-    title: "E-commerce product",
-    text: "Frontend Mentor - E-commerce product built with ReactJS, TailwindCSS and Redux Toolkit",
-    site: "https://ecommerce-product-beta.vercel.app/",
-    code: "https://github.com/ErysCode7/ecommerce-product",
-  },
+ 
   {
     image: Countries,
     title: "Rest Countries API",
@@ -105,32 +94,11 @@ const ProjectDetails = [
     code: "https://github.com/ErysCode7/countries-api",
   },
   {
-    image: MovieLand,
-    title: "MovieLand",
-    text: "Movie API application in React JS fetching data from external source. Built with Tailwind CSS, Axios Context API React Router Dom",
-    site: "https://movieland-beta.vercel.app/",
-    code: "https://github.com/ErysCode7/movieland",
-  },
-  {
     image: Cocktails,
     title: "Cocktails app",
     text: "Random cocktails application in React JS fetching data from external source. Built with material design, Axios, Context API",
     site: "https://cocktails-omega.vercel.app/",
     code: "https://github.com/ErysCode7/cocktails",
-  },
-  {
-    image: Blog,
-    title: "Blog App",
-    text: "Blog application in React JS using react router dom with localstorage",
-    site: "https://blog-app-azure.vercel.app/",
-    code: "https://github.com/ErysCode7/blog-app",
-  },
-  {
-    image: TodoList,
-    title: "Todolist App",
-    text: "Todolist app in React JS using local storage",
-    site: "https://todolist-app-nu.vercel.app/",
-    code: "https://github.com/ErysCode7/todolist-app",
   },
   {
     image: AdviceGenerator,
@@ -153,13 +121,13 @@ const ProjectDetails = [
     site: "https://eryscode7.github.io/royals-landing-page/",
     code: "https://github.com/ErysCode7/royals-landing-page",
   },
-  {
-    image: FrontendDocumentation,
-    title: "Frontend Documentation",
-    text: "Personal blog Technical Documentation Page",
-    site: "https://eryscode7.github.io/frontend-documentation/",
-    code: "https://github.com/ErysCode7/frontend-documentation",
-  },
+  // {
+  //   image: FrontendDocumentation,
+  //   title: "Frontend Documentation",
+  //   text: "Personal blog Technical Documentation Page",
+  //   site: "https://eryscode7.github.io/frontend-documentation/",
+  //   code: "https://github.com/ErysCode7/frontend-documentation",
+  // },
   {
     image: GithubGeneratorApp,
     title: "Github Generator App",
@@ -175,15 +143,8 @@ const ProjectDetails = [
     code: "https://github.com/ErysCode7/gpt3",
   },
   {
-    image: SpaceWebsite,
-    title: "Space tourism website",
-    text: "Frontend Mentor Challenges Multi Page Website",
-    site: "https://eryscode7.github.io/space-tourism/",
-    code: "https://github.com/ErysCode7/space-tourism",
-  },
-  {
     image: EasyBank,
-    title: "EasyBank landing apge",
+    title: "EasyBank landing page",
     text: "Frontend Mentor Challenges Landing Page made with HTML, CSS, SASS and JavaScript.",
     site: "https://eryscode7.github.io/easybank-landing-page/",
     code: "https://github.com/ErysCode7/easybank-landing-page",
