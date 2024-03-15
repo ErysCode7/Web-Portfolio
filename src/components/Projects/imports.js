@@ -29,13 +29,6 @@ import Weatheria from "../../assets/images/projects/weatheria.jpg";
 export { CSScertificate, FCC, Java, PHP, Python, ResponsiveWeb };
 
 const ProjectDetails = [
-  // {
-  //   image: Dictionary,
-  //   title: "Dictionary APP",
-  //   text: "Dictionary is web application that provides users with access to a dictionary. It can be used to look up the meanings of words, learn new vocabulary and improve language skills.",
-  //   site: "https://dictionary-app-sandy.vercel.app/",
-  //   code: "https://github.com/ErysCode7/dictionary-app",
-  // },
   {
     image: PGD,
     title: "Pokémon Go-Dex",
