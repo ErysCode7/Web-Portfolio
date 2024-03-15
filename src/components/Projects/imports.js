@@ -1,11 +1,9 @@
-//projects
+// PROJECTS
 import AdviceGenerator from "../../assets/images/projects/advice-generator.jpg";
 import Cocktails from "../../assets/images/projects/cocktails.jpg";
 import Countries from "../../assets/images/projects/countries.jpg";
-import Dictionary from "../../assets/images/projects/dictionary.png";
 import EasyBank from "../../assets/images/projects/easybank.jpg";
 import EdieHomepage from "../../assets/images/projects/edie-page.jpg";
-import FrontendDocumentation from "../../assets/images/projects/frontend-docu.jpg";
 import GithubGeneratorApp from "../../assets/images/projects/github-generator-app.jpg";
 import GPT3 from "../../assets/images/projects/gpt3.jpg";
 import Hulu from "../../assets/images/projects/hulu.jpg";
@@ -14,7 +12,7 @@ import Realtor from "../../assets/images/projects/realtor.jpg";
 import Royals from "../../assets/images/projects/royals.jpg";
 import Toyota from "../../assets/images/projects/toyota.jpg";
 
-//certificates
+// CERTICIFICATES
 import CSScertificate from "../../assets/images/certificate/CSS.jpg";
 import FCC from "../../assets/images/certificate/fcc.jpg";
 import Java from "../../assets/images/certificate/Java.png";
